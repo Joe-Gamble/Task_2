@@ -13,8 +13,7 @@ int main ()
 	char RESPONSE;
 
 
-	std :: cout << TARGET_NUMBER << "\n"
-	    << "Can you guess what number I'm thinking of?\n";
+	std :: cout << "Can you guess what number I'm thinking of?\n";
 	std :: cin >> PLAYER_INPUT;
 
 	if (TARGET_NUMBER == PLAYER_INPUT)
